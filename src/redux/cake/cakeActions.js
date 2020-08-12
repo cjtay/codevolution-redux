@@ -2,6 +2,6 @@ import { BUY_CAKE } from './cakeTypes';
 
 export const buyCake = () => {
     return {
-        type: BUY,
+        type: BUY_CAKE,
     };
 };
