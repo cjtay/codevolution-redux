@@ -9,7 +9,7 @@ const breadReducer = (state = initialState, action) => {
         case BUY_BREAD:
             return {
                 ...state,
-                numOfBread: state.numOfBread - 1,
+                numOfBread: state.numOfBread - action.payload,
             };
         default:
             return state;
